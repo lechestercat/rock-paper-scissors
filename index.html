@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissors Game</title>
+    <link rel="stylesheet" type="text/css" href="./css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -11,9 +13,9 @@
     </header>
 
     <div class="scoreboard">
-        <div class="badge">user</div>
-        <div class="badge">comp</div>
-        <div class="score">0:0</div>
+        <div class="badge" id="user-label">user</div>
+        <div class="badge" id="comp-label">comp</div>
+        <span id="user-score">0</span>:<span id="comp-score">0</span>
     </div>
 
     <div class="resultsMsg">
@@ -32,7 +34,7 @@
         </div> 
     </div>
 
-    <div class="turn">
+    <div id="turn">
         <h3>Make your move.</h3>
     </div>
     
